@@ -52,7 +52,7 @@ class OPerators
         sonuc1 = sayı1++;
         System.Console.WriteLine(sonuc1);
 
-        int sonuc2 = 20%3;
+        int sonuc2 = 30%3;
         Console.WriteLine(sonuc2);
 
 
