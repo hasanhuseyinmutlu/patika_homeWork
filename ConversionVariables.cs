@@ -65,7 +65,7 @@ namespace ConvversionVariables
         public static void ParseMethod()
         {
             string str1 = "10";
-            string str2 = "10.25";
+            string str2 = "34.5";
             int numb1;
             double double1;
 
