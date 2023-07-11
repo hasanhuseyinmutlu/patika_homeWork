@@ -9,7 +9,12 @@ internal partial class Program
         customer.CustomerTelNo = "5531887122";
         
         customer.CustomerInfo();
+
+        Customer customer1 = new Customer("Hasan","MUtlu","5531887122");
+        customer1.CustomerInfo();
     }
+
+    
     
        
         
@@ -23,6 +28,12 @@ class Customer()
              public string CustomerSurname { get; set; }
 
              public string CustomerTelNo { get; set; }
+
+            public Customer(string CustomerName, string CustomerSurname, string CustomerTelNo) {
+                this.CustomerName = CustomerName;
+                this.CustomerSurname = CustomerSurname;
+                this.CustomerTelNo = CustomerTelNo;
+            }
 
             public void  CustomerInfo() {
                 System.Console.WriteLine("Ad{0}", CustomerName);
